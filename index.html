@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Low Grip Strength - 3D Integrated Multimorbidity Network</title>
+<style>
+body{margin:0;overflow:hidden;font-family:'Segoe UI',Arial,sans-serif;background:#f5f7fa}
+#tooltip{position:absolute;display:none;background:rgba(255,255,255,.96);border:2px solid #3498db;border-radius:10px;padding:12px 16px;pointer-events:none;font-size:13px;max-width:340px;box-shadow:0 8px 24px rgba(0,0,0,.18);line-height:1.5;z-index:100}
+#tooltip strong{color:#2c3e50;font-size:15px}
+#tooltip hr{margin:6px 0;border:none;border-top:1px solid #e0e0e0}
+#tooltip .color-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.info{position:absolute;top:15px;left:15px;background:rgba(255,255,255,.85);padding:10px 16px;border-radius:10px;font-size:14px;color:#333;box-shadow:0 2px 12px rgba(0,0,0,.1);pointer-events:none;z-index:10}
+.legend{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.92);padding:12px 16px;border-radius:10px;font-size:12px;color:#444;box-shadow:0 2px 12px rgba(0,0,0,.12);pointer-events:none;z-index:10;line-height:1.7}
+.legend .dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.legend .line{display:inline-block;width:25px;height:3px;margin-right:7px;vertical-align:middle}
+</style>
+</head>
+
+<body>
+
+<div id="tooltip"></div>
+
+<div class="info">
+🖱️ Drag to rotate · Scroll to zoom · Hover for details
+</div>
+
+<div class="legend">
+<span class="dot" style="background:#1F618D"></span>Center (Low Grip Strength)<br>
+<span class="line" style="background:#2E86C2"></span>Upstream trajectory<br>
+<span class="line" style="background:#e67e22"></span>Downstream trajectory<br>
+<span class="line" style="background:#999"></span>Differential network association<br>
+<span class="line" style="background:#aaa;opacity:.55"></span>Cross-trajectory association<br>
+<span class="line" style="background:#ccc;opacity:.45"></span>Underlying LowGrip network<br>
+<span style="font-size:10px;color:#999">
+Node color = disease category<br>
+X = trajectory direction · Z = broader network context
+</span>
+</div>
+
+<script type="importmap">
+{
+  "imports":{
+    "three":"https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {
+  CSS2DRenderer,
+  CSS2DObject
+} from 'three/addons/renderers/CSS2DRenderer.js';
+
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0xf0f4f8);
+
+const camera=new THREE.PerspectiveCamera(
+  40,
+  window.innerWidth/window.innerHeight,
+  .1,
+  1200
+);
+
+camera.position.set(25,8,30);
+camera.lookAt(0,0,0);
+
+const renderer=new THREE.WebGLRenderer({
+  antialias:true
+});
+
+renderer.setSize(
+  window.innerWidth,
+  window.innerHeight
+);
+
+renderer.shadowMap.enabled=true;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure=1.2;
+
+document.body.appendChild(
+  renderer.domElement
+);
+
+const labelRenderer=new CSS2DRenderer();
+
+labelRenderer.setSize(
+  window.innerWidth,
+  window.innerHeight
+);
+
+labelRenderer.domElement.style.position='absolute';
+labelRenderer.domElement.style.top='0px';
+labelRenderer.domElement.style.left='0px';
+labelRenderer.domElement.style.pointerEvents='none';
+
+document.body.appendChild(
+  labelRenderer.domElement
+);
+
+const controls=new OrbitControls(
+  camera,
+  renderer.domElement
+);
+
+controls.enableDamping=true;
+controls.dampingFactor=.08;
+controls.autoRotate=false;
+controls.target.set(0,0,0);
+
+/* Lighting */
+
+scene.add(
+  new THREE.AmbientLight(
+    0x404060,
+    .6
+  )
+);
+
+scene.add(
+  new THREE.HemisphereLight(
+    0xffffff,
+    0x444444,
+    .8
+  )
+);
+
+const mainLight=
+  new THREE.DirectionalLight(
+    0xffffff,
+    1.8
+  );
+
+mainLight.position.set(
+  20,
+  30,
+  20
+);
+
+scene.add(mainLight);
+
+const fillLight=
+  new THREE.DirectionalLight(
+    0xffeecc,
+    .6
+  );
+
+fillLight.position.set(
+  -20,
+  5,
+  -20
+);
+
+scene.add(fillLight);
+
+const backLight=
+  new THREE.DirectionalLight(
+    0xffffff,
+    .4
+  );
+
+backLight.position.set(
+  0,
+  -10,
+  -30
+);
+
+scene.add(backLight);
+
+const nodesMap=new Map();
+const edgesGroup=new THREE.Group();
+
+scene.add(edgesGroup);
+
+/* Role names */
+
+const roleName={
+  center:'Low Grip Strength',
+  up_positive:'Upstream positive',
+  down_positive:'Downstream positive',
+  up_associated:'Upstream differential neighbour',
+  down_associated:'Downstream differential neighbour',
+  cross_associated:'Cross-associated network disease',
+  background_network:'Background Community network'
+};
+
+/* Camera fit */
+
+function fitCameraToNodes(
+  nodesData,
+  camera,
+  controls,
+  offset=2.0
+){
+  if(!nodesData||nodesData.length===0)
+    return;
+
+  const box=new THREE.Box3();
+
+  nodesData.forEach(n=>{
+    box.expandByPoint(
+      new THREE.Vector3(
+        n.x,
+        n.y,
+        n.z
+      )
+    );
+  });
+
+  const center=
+    box.getCenter(
+      new THREE.Vector3()
+    );
+
+  const size=
+    box.getSize(
+      new THREE.Vector3()
+    );
+
+  const maxDim=
+    Math.max(
+      size.x,
+      size.y,
+      size.z
+    );
+
+  const distance=
+    maxDim*offset;
+
+  const dir=
+    new THREE.Vector3(
+      1,
+      .5,
+      1
+    ).normalize();
+
+  camera.position.copy(
+    center.clone().add(
+      dir.multiplyScalar(
+        distance
+      )
+    )
+  );
+
+  controls.target.copy(center);
+  controls.update();
+}
+
+Promise.all([
+  fetch('nodes.json').then(r=>r.json()),
+  fetch('edges.json').then(r=>r.json())
+]).then(([nodesData,edgesData])=>{
+
+  console.log(
+    'Total nodes:',
+    nodesData.length
+  );
+
+  console.log(
+    'Total edges:',
+    edgesData.length
+  );
+
+  if(nodesData.length!==287){
+    console.warn(
+      '⚠️ Expected 287 nodes but found',
+      nodesData.length
+    );
+  }
+
+  /* Grid uses full 3D range */
+
+  const xs=nodesData.map(n=>n.x);
+  const ys=nodesData.map(n=>n.y);
+  const zs=nodesData.map(n=>n.z);
+
+  const maxRange=Math.max(
+    Math.max(...xs)-Math.min(...xs),
+    Math.max(...ys)-Math.min(...ys),
+    Math.max(...zs)-Math.min(...zs)
+  )*1.3;
+
+  const gridSize=
+    Math.max(
+      60,
+      maxRange
+    );
+
+  const grid=
+    new THREE.GridHelper(
+      gridSize,
+      Math.floor(gridSize/2),
+      0x999999,
+      0xcccccc
+    );
+
+  grid.rotation.x=
+    Math.PI/2;
+
+  grid.position.z=0;
+
+  if(Array.isArray(grid.material)){
+    grid.material.forEach(mat=>{
+      mat.transparent=true;
+      mat.opacity=.24;
+    });
+  }else{
+    grid.material.transparent=true;
+    grid.material.opacity=.24;
+  }
+
+  scene.add(grid);
+
+  /* Nodes */
+
+  nodesData.forEach(node=>{
+
+    const isCenter=
+      node.group==='center';
+
+    const isPositive=
+      node.group==='up_positive'||
+      node.group==='down_positive';
+
+    /*
+       原节点大小不改变：
+       center = 1.2
+       positive = 0.8
+       associated = 0.5
+
+       只有新增节点更小
+    */
+
+    const radius=
+      isCenter ? 1.2 :
+      isPositive ? .8 :
+      node.group==='up_associated' ? .5 :
+      node.group==='down_associated' ? .5 :
+      node.group==='cross_associated' ? .45 :
+      node.group==='background_network' ? .28 :
+      .5;
+
+    const color=
+      node.color||'#888';
+
+    const isBackground=
+      node.group==='background_network';
+
+    const geo=
+      new THREE.SphereGeometry(
+        radius,
+        32,
+        32
+      );
+
+    const mat=
+      new THREE.MeshStandardMaterial({
+        color:color,
+        roughness:.15,
+        metalness:.25,
+        emissive:new THREE.Color(
+          isCenter?
+          '#1F618D':
+          color
+        ),
+        emissiveIntensity:
+          isCenter?
+          .5:
+          isBackground?
+          .06:
+          .2,
+        transparent:isBackground,
+        opacity:isBackground?
+          .80:
+          1
+      });
+
+    const sphere=
+      new THREE.Mesh(
+        geo,
+        mat
+      );
+
+    sphere.position.set(
+      node.x,
+      node.y,
+      node.z
+    );
+
+    sphere.userData=node;
+
+    scene.add(sphere);
+
+    nodesMap.set(
+      node.id,
+      {
+        mesh:sphere,
+        data:node
+      }
+    );
+
+    /*
+       标签仍只显示：
+       center
+       upstream positive
+       downstream positive
+    */
+
+    if(
+      isCenter||
+      isPositive
+    ){
+
+      const div=
+        document.createElement(
+          'div'
+        );
+
+      const text=
+        node.label||
+        node.id;
+
+      div.textContent=
+        text.length>24?
+        text.substring(0,22)+'…':
+        text;
+
+      div.style.color='#2c3e50';
+
+      div.style.fontSize=
+        isCenter?
+        '13px':
+        '10px';
+
+      div.style.fontWeight='bold';
+
+      div.style.textShadow=
+        '1px 1px 2px rgba(255,255,255,.95)';
+
+      div.style.background=
+        'rgba(255,255,255,.90)';
+
+      div.style.padding=
+        '2px 8px';
+
+      div.style.borderRadius=
+        '12px';
+
+      div.style.border=
+        '.5px solid #bbb';
+
+      const label=
+        new CSS2DObject(
+          div
+        );
+
+      label.position.set(
+        node.x,
+        node.y+
+        radius+
+        .7,
+        node.z
+      );
+
+      scene.add(label);
+    }
+
+  });
+
+  /* Edge styles */
+
+  const edgeStyle={
+
+    trajectory_up:{
+      color:'#2E86C2',
+      opacity:.85
+    },
+
+    trajectory_down:{
+      color:'#e67e22',
+      opacity:.85
+    },
+
+    association_up:{
+      color:'#aaaaaa',
+      opacity:.50
+    },
+
+    association_down:{
+      color:'#aaaaaa',
+      opacity:.50
+    },
+
+    association_cross:{
+      color:'#aaaaaa',
+      opacity:.30
+    },
+
+    /*
+       完整283-node network很多边，
+       因此必须非常淡
+    */
+
+    network_background:{
+      color:'#c8c8c8',
+      opacity:.07
+    }
+
+  };
+
+  /* Edges */
+
+  edgesData.forEach(edge=>{
+
+    const fromObj=
+      nodesMap.get(
+        edge.from
+      );
+
+    const toObj=
+      nodesMap.get(
+        edge.to
+      );
+
+    if(
+      !fromObj||
+      !toObj
+    ) return;
+
+    const p1=
+      fromObj.mesh.position;
+
+    const p2=
+      toObj.mesh.position;
+
+    const style=
+      edgeStyle[
+        edge.type
+      ]||
+      {
+        color:'#888',
+        opacity:.15
+      };
+
+    const pts=[
+      p1.clone(),
+      p2.clone()
+    ];
+
+    const geometry=
+      new THREE.BufferGeometry()
+        .setFromPoints(
+          pts
+        );
+
+    const material=
+      new THREE.LineBasicMaterial({
+        color:style.color,
+        transparent:true,
+        opacity:style.opacity,
+        depthWrite:
+          edge.type!==
+          'network_background'
+      });
+
+    const line=
+      new THREE.Line(
+        geometry,
+        material
+      );
+
+    if(
+      edge.type===
+      'network_background'
+    ){
+      line.renderOrder=0;
+    }
+    else if(
+      edge.type===
+      'association_up'||
+      edge.type===
+      'association_down'||
+      edge.type===
+      'association_cross'
+    ){
+      line.renderOrder=2;
+    }
+    else{
+      line.renderOrder=3;
+    }
+
+    edgesGroup.add(line);
+
+  });
+
+  /*
+    ⭐ 初始相机只根据“原来的核心四层”适配。
+
+    这样打开网页时，
+    原来的左右trajectory仍然是视觉主体。
+
+    Background存在于前后，
+    用户旋转/缩放后再看到。
+  */
+
+  const coreNodes=
+    nodesData.filter(
+      n=>
+        n.group!==
+          'background_network' &&
+        n.group!==
+          'cross_associated'
+    );
+
+  fitCameraToNodes(
+    coreNodes,
+    camera,
+    controls,
+    2.0
+  );
+
+  /* Mouse interaction */
+
+  const raycaster=
+    new THREE.Raycaster();
+
+  const mouse=
+    new THREE.Vector2();
+
+  const tooltip=
+    document.getElementById(
+      'tooltip'
+    );
+
+  const meshes=
+    [...nodesMap.values()]
+      .map(x=>x.mesh);
+
+  renderer.domElement.addEventListener(
+    'mousemove',
+    e=>{
+
+      mouse.x=
+        (e.clientX/
+          window.innerWidth)*
+        2-1;
+
+      mouse.y=
+        -(e.clientY/
+          window.innerHeight)*
+        2+1;
+
+      raycaster.setFromCamera(
+        mouse,
+        camera
+      );
+
+      const hits=
+        raycaster
+          .intersectObjects(
+            meshes
+          );
+
+      if(hits.length>0){
+
+        const d=
+          hits[0]
+            .object
+            .userData;
+
+        const networkText=
+          d.network_member===
+          true?
+          'Yes':
+          d.group==='center'?
+          '—':
+          'No';
+
+        tooltip.innerHTML=`
+          <span
+            class="color-dot"
+            style="background:${d.color}">
+          </span>
+
+          <strong>
+            ${d.label||d.id}
+          </strong>
+
+          <hr>
+
+          <span>
+            ICD: ${d.id}
+          </span><br>
+
+          <span>
+            Category:
+            ${d.category}
+          </span><br>
+
+          <span>
+            Role:
+            ${roleName[d.group]||d.group}
+          </span><br>
+
+          <span>
+            Community network member:
+            ${networkText}
+          </span><br>
+
+          <span>
+            LowGrip module:
+            ${d.module??'—'}
+          </span><br>
+
+          <span>
+            Position:
+            (${Number(d.x).toFixed(2)},
+             ${Number(d.y).toFixed(2)},
+             ${Number(d.z).toFixed(2)})
+          </span>
+        `;
+
+        tooltip.style.display=
+          'block';
+
+        tooltip.style.left=
+          (e.clientX+15)+
+          'px';
+
+        tooltip.style.top=
+          (e.clientY-10)+
+          'px';
+
+      }else{
+
+        tooltip.style.display=
+          'none';
+
+      }
+
+    }
+  );
+
+  console.log(
+    '✅ 3D network loaded'
+  );
+
+  console.table(
+    nodesData.reduce(
+      (obj,n)=>{
+        obj[n.group]=
+          (obj[n.group]||0)+1;
+        return obj;
+      },
+      {}
+    )
+  );
+
+});
+
+function animate(){
+
+  requestAnimationFrame(
+    animate
+  );
+
+  controls.update();
+
+  renderer.render(
+    scene,
+    camera
+  );
+
+  labelRenderer.render(
+    scene,
+    camera
+  );
+
+}
+
+animate();
+
+window.addEventListener(
+  'resize',
+  ()=>{
+
+    camera.aspect=
+      window.innerWidth/
+      window.innerHeight;
+
+    camera.updateProjectionMatrix();
+
+    renderer.setSize(
+      window.innerWidth,
+      window.innerHeight
+    );
+
+    labelRenderer.setSize(
+      window.innerWidth,
+      window.innerHeight
+    );
+
+  }
+);
+
+</script>
+</body>
+</html>

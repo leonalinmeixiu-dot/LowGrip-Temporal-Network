@@ -1,0 +1,4694 @@
+[
+  {
+    "from": "M20",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.6612,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "I20",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.9862,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "G50",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.7835,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "J45",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.7446,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M47",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 2.5847,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "J09",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.6321,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "K52",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.6919,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M79",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.5111,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M45",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 7.3808,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "L01",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.4705,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "G40",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 2.8685,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M50",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 2.1801,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "G35",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 4.0495,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "H90",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.434,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "F20",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 2.1683,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M65",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.4628,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M60",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.6872,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "K90",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.9111,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "M75",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.35,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "B89",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.5833,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "E34",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 2.2524,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "N31",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.9094,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "L60",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.7555,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "F13",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.7895,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "N80",
+    "to": "LOW_GRIP_STRENGTH",
+    "weight": 1.3583,
+    "type": "trajectory_up"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "J12",
+    "weight": 2.9619,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "M15",
+    "weight": 1.7799,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K59",
+    "weight": 2.2532,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "D51",
+    "weight": 2.4563,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "B96",
+    "weight": 2.7307,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "A09",
+    "weight": 2.268,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "F32",
+    "weight": 2.3331,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "I50",
+    "weight": 2.8482,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "M80",
+    "weight": 2.5705,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "M05",
+    "weight": 4.8187,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "M10",
+    "weight": 2.0374,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "J44",
+    "weight": 2.6108,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "E10",
+    "weight": 1.9042,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "D50",
+    "weight": 2.1092,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "E40",
+    "weight": 2.7708,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "G20",
+    "weight": 3.122,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "G47",
+    "weight": 2.3283,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K92",
+    "weight": 1.6979,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "I69",
+    "weight": 6.2185,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "G80",
+    "weight": 3.8694,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "E16",
+    "weight": 4.873,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K29",
+    "weight": 1.4252,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "I73",
+    "weight": 2.3801,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "L97",
+    "weight": 5.9583,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "F01",
+    "weight": 7.0142,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "G60",
+    "weight": 2.4666,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K44",
+    "weight": 1.3519,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "J96",
+    "weight": 7.2764,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "H53",
+    "weight": 1.8336,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "H25",
+    "weight": 1.2291,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "J47",
+    "weight": 2.0412,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K57",
+    "weight": 1.2412,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "N32",
+    "weight": 1.6103,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "H30",
+    "weight": 1.3723,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K74",
+    "weight": 3.4987,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "N19",
+    "weight": 2.8161,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K25",
+    "weight": 1.6432,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "N35",
+    "weight": 1.7958,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "H40",
+    "weight": 1.3229,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "N47",
+    "weight": 1.7594,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "LOW_GRIP_STRENGTH",
+    "to": "K08",
+    "weight": 1.6224,
+    "type": "trajectory_down"
+  },
+  {
+    "from": "G50",
+    "to": "M51",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "F13",
+    "to": "F12",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M65",
+    "to": "M77",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M20",
+    "to": "M77",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "B89",
+    "to": "B34",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M65",
+    "to": "M70",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "G40",
+    "to": "G45",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "J09",
+    "to": "B34",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "L01",
+    "to": "L72",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "B89",
+    "to": "L71",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "F20",
+    "to": "N95",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "J09",
+    "to": "J30",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "L01",
+    "to": "K61",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "F20",
+    "to": "F39",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M65",
+    "to": "M71",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M60",
+    "to": "M96",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "N80",
+    "to": "N83",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "J09",
+    "to": "A49",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "B89",
+    "to": "H10",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "I20",
+    "to": "I21",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M50",
+    "to": "M54",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M47",
+    "to": "E70",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "L01",
+    "to": "L20",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "B89",
+    "to": "B64",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "B89",
+    "to": "B99",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "F13",
+    "to": "F16",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "K52",
+    "to": "K50",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "F13",
+    "to": "F15",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "K90",
+    "to": "K31",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M79",
+    "to": "M77",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M75",
+    "to": "M96",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "L01",
+    "to": "B49",
+    "weight": 0.3,
+    "type": "association_up"
+  },
+  {
+    "from": "M05",
+    "to": "L40",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N19",
+    "to": "N08",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I50",
+    "to": "N17",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "A09",
+    "to": "E86",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J12",
+    "to": "E87",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "E16",
+    "to": "N08",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "H40",
+    "to": "H15",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N19",
+    "to": "N29",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I50",
+    "to": "I49",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I73",
+    "to": "I26",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J47",
+    "to": "J43",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "F01",
+    "to": "F00",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J12",
+    "to": "J95",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G80",
+    "to": "A50",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "A09",
+    "to": "A00",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "B96",
+    "to": "K26",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "D51",
+    "to": "D69",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "M05",
+    "to": "J95",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G80",
+    "to": "L89",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "M80",
+    "to": "E21",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J96",
+    "to": "J43",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G20",
+    "to": "J60",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N35",
+    "to": "C61",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N32",
+    "to": "J39",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I73",
+    "to": "F17",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "D50",
+    "to": "C18",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "M05",
+    "to": "M40",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J12",
+    "to": "J82",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "E10",
+    "to": "F52",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N32",
+    "to": "C67",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G47",
+    "to": "E66",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "K44",
+    "to": "K22",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N32",
+    "to": "N40",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I50",
+    "to": "J82",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "F32",
+    "to": "F40",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "F01",
+    "to": "F02",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G80",
+    "to": "I60",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I50",
+    "to": "I48",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J47",
+    "to": "J82",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "G20",
+    "to": "G30",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "H25",
+    "to": "H49",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "L97",
+    "to": "I77",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "H40",
+    "to": "H43",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N32",
+    "to": "N30",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J44",
+    "to": "F17",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "N47",
+    "to": "N48",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I69",
+    "to": "I65",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I50",
+    "to": "J60",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "J44",
+    "to": "C34",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "L97",
+    "to": "L89",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "K25",
+    "to": "K26",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "I73",
+    "to": "K12",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "K29",
+    "to": "K22",
+    "weight": 0.3,
+    "type": "association_down"
+  },
+  {
+    "from": "E34",
+    "to": "C90",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "J09",
+    "to": "J20",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "L01",
+    "to": "I89",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "J45",
+    "to": "J20",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "E34",
+    "to": "M48",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "K52",
+    "to": "A08",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "J09",
+    "to": "A15",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "G40",
+    "to": "F05",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "J47",
+    "to": "J20",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "I50",
+    "to": "A15",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "M80",
+    "to": "M48",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "K29",
+    "to": "A08",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "G80",
+    "to": "F05",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "L97",
+    "to": "I89",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "G60",
+    "to": "C90",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "F01",
+    "to": "F05",
+    "weight": 0.25,
+    "type": "association_cross"
+  },
+  {
+    "from": "F39",
+    "to": "F53",
+    "weight": 0.7319,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "B99",
+    "weight": 0.6578,
+    "type": "network_background"
+  },
+  {
+    "from": "F14",
+    "to": "F18",
+    "weight": 0.6364,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "N33",
+    "weight": 0.54,
+    "type": "network_background"
+  },
+  {
+    "from": "F12",
+    "to": "F15",
+    "weight": 0.5156,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H03",
+    "weight": 0.5114,
+    "type": "network_background"
+  },
+  {
+    "from": "E70",
+    "to": "M30",
+    "weight": 0.4347,
+    "type": "network_background"
+  },
+  {
+    "from": "J38",
+    "to": "J82",
+    "weight": 0.42,
+    "type": "network_background"
+  },
+  {
+    "from": "G44",
+    "to": "G97",
+    "weight": 0.4174,
+    "type": "network_background"
+  },
+  {
+    "from": "G80",
+    "to": "I69",
+    "weight": 0.4079,
+    "type": "network_background"
+  },
+  {
+    "from": "G44",
+    "to": "G43",
+    "weight": 0.4015,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "B83",
+    "weight": 0.3991,
+    "type": "network_background"
+  },
+  {
+    "from": "F52",
+    "to": "N48",
+    "weight": 0.3929,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "B99",
+    "weight": 0.3478,
+    "type": "network_background"
+  },
+  {
+    "from": "F20",
+    "to": "F53",
+    "weight": 0.3462,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "K12",
+    "weight": 0.3424,
+    "type": "network_background"
+  },
+  {
+    "from": "A00",
+    "to": "A06",
+    "weight": 0.3374,
+    "type": "network_background"
+  },
+  {
+    "from": "F16",
+    "to": "F18",
+    "weight": 0.3358,
+    "type": "network_background"
+  },
+  {
+    "from": "N45",
+    "to": "N51",
+    "weight": 0.3287,
+    "type": "network_background"
+  },
+  {
+    "from": "K90",
+    "to": "K91",
+    "weight": 0.307,
+    "type": "network_background"
+  },
+  {
+    "from": "F00",
+    "to": "F02",
+    "weight": 0.3003,
+    "type": "network_background"
+  },
+  {
+    "from": "E00",
+    "to": "E89",
+    "weight": 0.2986,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "A08",
+    "weight": 0.2918,
+    "type": "network_background"
+  },
+  {
+    "from": "N13",
+    "to": "N20",
+    "weight": 0.2835,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "N50",
+    "weight": 0.277,
+    "type": "network_background"
+  },
+  {
+    "from": "J38",
+    "to": "J60",
+    "weight": 0.2702,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "B09",
+    "weight": 0.2697,
+    "type": "network_background"
+  },
+  {
+    "from": "M51",
+    "to": "M54",
+    "weight": 0.2691,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "C77",
+    "weight": 0.2658,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "C77",
+    "weight": 0.2646,
+    "type": "network_background"
+  },
+  {
+    "from": "F18",
+    "to": "F19",
+    "weight": 0.2643,
+    "type": "network_background"
+  },
+  {
+    "from": "A09",
+    "to": "K52",
+    "weight": 0.2509,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "K12",
+    "weight": 0.2496,
+    "type": "network_background"
+  },
+  {
+    "from": "C76",
+    "to": "C77",
+    "weight": 0.2459,
+    "type": "network_background"
+  },
+  {
+    "from": "L72",
+    "to": "N60",
+    "weight": 0.2444,
+    "type": "network_background"
+  },
+  {
+    "from": "K85",
+    "to": "K86",
+    "weight": 0.237,
+    "type": "network_background"
+  },
+  {
+    "from": "F18",
+    "to": "F15",
+    "weight": 0.2358,
+    "type": "network_background"
+  },
+  {
+    "from": "H00",
+    "to": "H05",
+    "weight": 0.2335,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "M00",
+    "weight": 0.2334,
+    "type": "network_background"
+  },
+  {
+    "from": "I60",
+    "to": "I65",
+    "weight": 0.2275,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "N33",
+    "weight": 0.226,
+    "type": "network_background"
+  },
+  {
+    "from": "H15",
+    "to": "L71",
+    "weight": 0.2239,
+    "type": "network_background"
+  },
+  {
+    "from": "H25",
+    "to": "H30",
+    "weight": 0.2223,
+    "type": "network_background"
+  },
+  {
+    "from": "J60",
+    "to": "J82",
+    "weight": 0.2213,
+    "type": "network_background"
+  },
+  {
+    "from": "K80",
+    "to": "K82",
+    "weight": 0.2184,
+    "type": "network_background"
+  },
+  {
+    "from": "J09",
+    "to": "J41",
+    "weight": 0.2155,
+    "type": "network_background"
+  },
+  {
+    "from": "I60",
+    "to": "I69",
+    "weight": 0.2127,
+    "type": "network_background"
+  },
+  {
+    "from": "M71",
+    "to": "M96",
+    "weight": 0.2126,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "N70",
+    "weight": 0.2101,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "N41",
+    "weight": 0.2096,
+    "type": "network_background"
+  },
+  {
+    "from": "G00",
+    "to": "I33",
+    "weight": 0.2064,
+    "type": "network_background"
+  },
+  {
+    "from": "K21",
+    "to": "K44",
+    "weight": 0.2055,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "B83",
+    "weight": 0.202,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "J12",
+    "weight": 0.2011,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "N94",
+    "weight": 0.2007,
+    "type": "network_background"
+  },
+  {
+    "from": "D50",
+    "to": "D51",
+    "weight": 0.2006,
+    "type": "network_background"
+  },
+  {
+    "from": "J43",
+    "to": "J44",
+    "weight": 0.1994,
+    "type": "network_background"
+  },
+  {
+    "from": "K80",
+    "to": "K81",
+    "weight": 0.1986,
+    "type": "network_background"
+  },
+  {
+    "from": "F14",
+    "to": "F19",
+    "weight": 0.1983,
+    "type": "network_background"
+  },
+  {
+    "from": "G99",
+    "to": "M50",
+    "weight": 0.1971,
+    "type": "network_background"
+  },
+  {
+    "from": "J38",
+    "to": "I50",
+    "weight": 0.1963,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "A41",
+    "weight": 0.1958,
+    "type": "network_background"
+  },
+  {
+    "from": "A09",
+    "to": "B83",
+    "weight": 0.1938,
+    "type": "network_background"
+  },
+  {
+    "from": "C15",
+    "to": "C77",
+    "weight": 0.1936,
+    "type": "network_background"
+  },
+  {
+    "from": "K00",
+    "to": "K08",
+    "weight": 0.1927,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "J41",
+    "weight": 0.1888,
+    "type": "network_background"
+  },
+  {
+    "from": "I73",
+    "to": "I77",
+    "weight": 0.1849,
+    "type": "network_background"
+  },
+  {
+    "from": "N92",
+    "to": "N95",
+    "weight": 0.1843,
+    "type": "network_background"
+  },
+  {
+    "from": "B96",
+    "to": "N39",
+    "weight": 0.1816,
+    "type": "network_background"
+  },
+  {
+    "from": "C15",
+    "to": "C18",
+    "weight": 0.1804,
+    "type": "network_background"
+  },
+  {
+    "from": "J09",
+    "to": "F45",
+    "weight": 0.1798,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "F06",
+    "weight": 0.1787,
+    "type": "network_background"
+  },
+  {
+    "from": "E78",
+    "to": "I10",
+    "weight": 0.1777,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K44",
+    "weight": 0.1774,
+    "type": "network_background"
+  },
+  {
+    "from": "H15",
+    "to": "H49",
+    "weight": 0.174,
+    "type": "network_background"
+  },
+  {
+    "from": "J33",
+    "to": "J34",
+    "weight": 0.173,
+    "type": "network_background"
+  },
+  {
+    "from": "F44",
+    "to": "H80",
+    "weight": 0.1717,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "H75",
+    "weight": 0.1687,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "H61",
+    "weight": 0.1674,
+    "type": "network_background"
+  },
+  {
+    "from": "C56",
+    "to": "C77",
+    "weight": 0.1643,
+    "type": "network_background"
+  },
+  {
+    "from": "G44",
+    "to": "N94",
+    "weight": 0.1641,
+    "type": "network_background"
+  },
+  {
+    "from": "G43",
+    "to": "G97",
+    "weight": 0.1638,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H10",
+    "weight": 0.1631,
+    "type": "network_background"
+  },
+  {
+    "from": "C25",
+    "to": "C77",
+    "weight": 0.163,
+    "type": "network_background"
+  },
+  {
+    "from": "C25",
+    "to": "K86",
+    "weight": 0.1618,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "M20",
+    "weight": 0.1618,
+    "type": "network_background"
+  },
+  {
+    "from": "C15",
+    "to": "C20",
+    "weight": 0.1618,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "N08",
+    "weight": 0.1598,
+    "type": "network_background"
+  },
+  {
+    "from": "N17",
+    "to": "N18",
+    "weight": 0.1593,
+    "type": "network_background"
+  },
+  {
+    "from": "J09",
+    "to": "J00",
+    "weight": 0.1583,
+    "type": "network_background"
+  },
+  {
+    "from": "F44",
+    "to": "A50",
+    "weight": 0.1583,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "B97",
+    "weight": 0.158,
+    "type": "network_background"
+  },
+  {
+    "from": "N32",
+    "to": "N31",
+    "weight": 0.1571,
+    "type": "network_background"
+  },
+  {
+    "from": "K57",
+    "to": "K63",
+    "weight": 0.1571,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "J20",
+    "weight": 0.1549,
+    "type": "network_background"
+  },
+  {
+    "from": "H25",
+    "to": "H40",
+    "weight": 0.1546,
+    "type": "network_background"
+  },
+  {
+    "from": "I05",
+    "to": "I51",
+    "weight": 0.1543,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "B34",
+    "weight": 0.1542,
+    "type": "network_background"
+  },
+  {
+    "from": "B49",
+    "to": "N70",
+    "weight": 0.1536,
+    "type": "network_background"
+  },
+  {
+    "from": "H04",
+    "to": "H05",
+    "weight": 0.1531,
+    "type": "network_background"
+  },
+  {
+    "from": "I05",
+    "to": "I34",
+    "weight": 0.153,
+    "type": "network_background"
+  },
+  {
+    "from": "N81",
+    "to": "N99",
+    "weight": 0.1529,
+    "type": "network_background"
+  },
+  {
+    "from": "N17",
+    "to": "E86",
+    "weight": 0.1518,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "H60",
+    "weight": 0.1507,
+    "type": "network_background"
+  },
+  {
+    "from": "C43",
+    "to": "L59",
+    "weight": 0.1498,
+    "type": "network_background"
+  },
+  {
+    "from": "J44",
+    "to": "J45",
+    "weight": 0.1496,
+    "type": "network_background"
+  },
+  {
+    "from": "B34",
+    "to": "B99",
+    "weight": 0.1495,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "D70",
+    "weight": 0.1492,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "H61",
+    "weight": 0.1487,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "J90",
+    "weight": 0.1483,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "C91",
+    "weight": 0.1467,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "N94",
+    "weight": 0.1456,
+    "type": "network_background"
+  },
+  {
+    "from": "C18",
+    "to": "C77",
+    "weight": 0.1443,
+    "type": "network_background"
+  },
+  {
+    "from": "D10",
+    "to": "K63",
+    "weight": 0.1438,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "H03",
+    "weight": 0.1431,
+    "type": "network_background"
+  },
+  {
+    "from": "M71",
+    "to": "M00",
+    "weight": 0.1429,
+    "type": "network_background"
+  },
+  {
+    "from": "N84",
+    "to": "N95",
+    "weight": 0.1426,
+    "type": "network_background"
+  },
+  {
+    "from": "E00",
+    "to": "E05",
+    "weight": 0.1419,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "H30",
+    "weight": 0.1409,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "K52",
+    "weight": 0.1407,
+    "type": "network_background"
+  },
+  {
+    "from": "K20",
+    "to": "K44",
+    "weight": 0.1397,
+    "type": "network_background"
+  },
+  {
+    "from": "L90",
+    "to": "N90",
+    "weight": 0.1393,
+    "type": "network_background"
+  },
+  {
+    "from": "F14",
+    "to": "F16",
+    "weight": 0.1388,
+    "type": "network_background"
+  },
+  {
+    "from": "H03",
+    "to": "H61",
+    "weight": 0.1382,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "E16",
+    "weight": 0.1381,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "H75",
+    "weight": 0.1381,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "C82",
+    "weight": 0.1373,
+    "type": "network_background"
+  },
+  {
+    "from": "J95",
+    "to": "J90",
+    "weight": 0.137,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "G30",
+    "weight": 0.1369,
+    "type": "network_background"
+  },
+  {
+    "from": "N84",
+    "to": "N85",
+    "weight": 0.1363,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "K59",
+    "weight": 0.136,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I51",
+    "weight": 0.1352,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "H03",
+    "weight": 0.1338,
+    "type": "network_background"
+  },
+  {
+    "from": "E34",
+    "to": "M80",
+    "weight": 0.1332,
+    "type": "network_background"
+  },
+  {
+    "from": "E05",
+    "to": "I42",
+    "weight": 0.1315,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "N48",
+    "weight": 0.1312,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "J30",
+    "weight": 0.1304,
+    "type": "network_background"
+  },
+  {
+    "from": "E21",
+    "to": "E83",
+    "weight": 0.1301,
+    "type": "network_background"
+  },
+  {
+    "from": "N40",
+    "to": "N42",
+    "weight": 0.1296,
+    "type": "network_background"
+  },
+  {
+    "from": "G30",
+    "to": "I65",
+    "weight": 0.1296,
+    "type": "network_background"
+  },
+  {
+    "from": "K62",
+    "to": "K92",
+    "weight": 0.1293,
+    "type": "network_background"
+  },
+  {
+    "from": "J38",
+    "to": "A15",
+    "weight": 0.1293,
+    "type": "network_background"
+  },
+  {
+    "from": "N17",
+    "to": "E87",
+    "weight": 0.1292,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "F44",
+    "weight": 0.1287,
+    "type": "network_background"
+  },
+  {
+    "from": "E04",
+    "to": "E89",
+    "weight": 0.1281,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I42",
+    "weight": 0.1276,
+    "type": "network_background"
+  },
+  {
+    "from": "I33",
+    "to": "I34",
+    "weight": 0.1274,
+    "type": "network_background"
+  },
+  {
+    "from": "I05",
+    "to": "I27",
+    "weight": 0.1263,
+    "type": "network_background"
+  },
+  {
+    "from": "I34",
+    "to": "I51",
+    "weight": 0.1263,
+    "type": "network_background"
+  },
+  {
+    "from": "I48",
+    "to": "I49",
+    "weight": 0.1259,
+    "type": "network_background"
+  },
+  {
+    "from": "N48",
+    "to": "N90",
+    "weight": 0.1259,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "B34",
+    "weight": 0.1254,
+    "type": "network_background"
+  },
+  {
+    "from": "I42",
+    "to": "E02",
+    "weight": 0.1252,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "N17",
+    "weight": 0.1251,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "L63",
+    "weight": 0.1249,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "N33",
+    "weight": 0.1248,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "I10",
+    "weight": 0.1246,
+    "type": "network_background"
+  },
+  {
+    "from": "K31",
+    "to": "K91",
+    "weight": 0.1244,
+    "type": "network_background"
+  },
+  {
+    "from": "K85",
+    "to": "K80",
+    "weight": 0.1242,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K25",
+    "weight": 0.1239,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "H80",
+    "weight": 0.1239,
+    "type": "network_background"
+  },
+  {
+    "from": "F44",
+    "to": "F06",
+    "weight": 0.1236,
+    "type": "network_background"
+  },
+  {
+    "from": "N85",
+    "to": "N88",
+    "weight": 0.1234,
+    "type": "network_background"
+  },
+  {
+    "from": "H00",
+    "to": "K61",
+    "weight": 0.123,
+    "type": "network_background"
+  },
+  {
+    "from": "M00",
+    "to": "M20",
+    "weight": 0.1227,
+    "type": "network_background"
+  },
+  {
+    "from": "C90",
+    "to": "M48",
+    "weight": 0.1227,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "N60",
+    "weight": 0.1226,
+    "type": "network_background"
+  },
+  {
+    "from": "M00",
+    "to": "L10",
+    "weight": 0.1225,
+    "type": "network_background"
+  },
+  {
+    "from": "N85",
+    "to": "N95",
+    "weight": 0.122,
+    "type": "network_background"
+  },
+  {
+    "from": "K57",
+    "to": "K64",
+    "weight": 0.1219,
+    "type": "network_background"
+  },
+  {
+    "from": "E66",
+    "to": "M15",
+    "weight": 0.1215,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "N86",
+    "weight": 0.1213,
+    "type": "network_background"
+  },
+  {
+    "from": "M80",
+    "to": "M85",
+    "weight": 0.1211,
+    "type": "network_background"
+  },
+  {
+    "from": "M15",
+    "to": "M20",
+    "weight": 0.1205,
+    "type": "network_background"
+  },
+  {
+    "from": "N32",
+    "to": "N35",
+    "weight": 0.1203,
+    "type": "network_background"
+  },
+  {
+    "from": "J44",
+    "to": "J47",
+    "weight": 0.12,
+    "type": "network_background"
+  },
+  {
+    "from": "N48",
+    "to": "L10",
+    "weight": 0.1198,
+    "type": "network_background"
+  },
+  {
+    "from": "J38",
+    "to": "J45",
+    "weight": 0.1195,
+    "type": "network_background"
+  },
+  {
+    "from": "N40",
+    "to": "N41",
+    "weight": 0.1189,
+    "type": "network_background"
+  },
+  {
+    "from": "K62",
+    "to": "K64",
+    "weight": 0.1179,
+    "type": "network_background"
+  },
+  {
+    "from": "N08",
+    "to": "N18",
+    "weight": 0.1176,
+    "type": "network_background"
+  },
+  {
+    "from": "E00",
+    "to": "E02",
+    "weight": 0.1174,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "D00",
+    "weight": 0.1169,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K31",
+    "weight": 0.1167,
+    "type": "network_background"
+  },
+  {
+    "from": "L01",
+    "to": "L97",
+    "weight": 0.1166,
+    "type": "network_background"
+  },
+  {
+    "from": "H30",
+    "to": "H43",
+    "weight": 0.116,
+    "type": "network_background"
+  },
+  {
+    "from": "K22",
+    "to": "K20",
+    "weight": 0.1154,
+    "type": "network_background"
+  },
+  {
+    "from": "C25",
+    "to": "K82",
+    "weight": 0.1148,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "B83",
+    "weight": 0.1146,
+    "type": "network_background"
+  },
+  {
+    "from": "N92",
+    "to": "N94",
+    "weight": 0.1135,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "L71",
+    "weight": 0.1134,
+    "type": "network_background"
+  },
+  {
+    "from": "E78",
+    "to": "I21",
+    "weight": 0.1132,
+    "type": "network_background"
+  },
+  {
+    "from": "N08",
+    "to": "D51",
+    "weight": 0.113,
+    "type": "network_background"
+  },
+  {
+    "from": "M15",
+    "to": "M10",
+    "weight": 0.1121,
+    "type": "network_background"
+  },
+  {
+    "from": "K60",
+    "to": "K61",
+    "weight": 0.112,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "A15",
+    "weight": 0.112,
+    "type": "network_background"
+  },
+  {
+    "from": "J30",
+    "to": "J34",
+    "weight": 0.1117,
+    "type": "network_background"
+  },
+  {
+    "from": "J33",
+    "to": "J30",
+    "weight": 0.1111,
+    "type": "network_background"
+  },
+  {
+    "from": "K00",
+    "to": "K04",
+    "weight": 0.111,
+    "type": "network_background"
+  },
+  {
+    "from": "G43",
+    "to": "N94",
+    "weight": 0.1107,
+    "type": "network_background"
+  },
+  {
+    "from": "E87",
+    "to": "E83",
+    "weight": 0.1106,
+    "type": "network_background"
+  },
+  {
+    "from": "N92",
+    "to": "N93",
+    "weight": 0.1103,
+    "type": "network_background"
+  },
+  {
+    "from": "M20",
+    "to": "M79",
+    "weight": 0.11,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "K91",
+    "weight": 0.1095,
+    "type": "network_background"
+  },
+  {
+    "from": "N33",
+    "to": "N39",
+    "weight": 0.1095,
+    "type": "network_background"
+  },
+  {
+    "from": "K80",
+    "to": "K66",
+    "weight": 0.1089,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "I73",
+    "weight": 0.1087,
+    "type": "network_background"
+  },
+  {
+    "from": "F16",
+    "to": "F10",
+    "weight": 0.1087,
+    "type": "network_background"
+  },
+  {
+    "from": "G45",
+    "to": "I65",
+    "weight": 0.1079,
+    "type": "network_background"
+  },
+  {
+    "from": "N40",
+    "to": "K40",
+    "weight": 0.1075,
+    "type": "network_background"
+  },
+  {
+    "from": "B99",
+    "to": "H10",
+    "weight": 0.1069,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "B34",
+    "weight": 0.1066,
+    "type": "network_background"
+  },
+  {
+    "from": "I20",
+    "to": "E78",
+    "weight": 0.1064,
+    "type": "network_background"
+  },
+  {
+    "from": "J90",
+    "to": "I30",
+    "weight": 0.1059,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "B49",
+    "weight": 0.1058,
+    "type": "network_background"
+  },
+  {
+    "from": "C61",
+    "to": "C77",
+    "weight": 0.1051,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "H90",
+    "weight": 0.1043,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "N60",
+    "weight": 0.1042,
+    "type": "network_background"
+  },
+  {
+    "from": "N45",
+    "to": "N50",
+    "weight": 0.1041,
+    "type": "network_background"
+  },
+  {
+    "from": "N48",
+    "to": "K61",
+    "weight": 0.104,
+    "type": "network_background"
+  },
+  {
+    "from": "F14",
+    "to": "F15",
+    "weight": 0.1035,
+    "type": "network_background"
+  },
+  {
+    "from": "K21",
+    "to": "K22",
+    "weight": 0.1035,
+    "type": "network_background"
+  },
+  {
+    "from": "N20",
+    "to": "N41",
+    "weight": 0.1033,
+    "type": "network_background"
+  },
+  {
+    "from": "K66",
+    "to": "K43",
+    "weight": 0.1032,
+    "type": "network_background"
+  },
+  {
+    "from": "K62",
+    "to": "K63",
+    "weight": 0.1029,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "N43",
+    "weight": 0.1029,
+    "type": "network_background"
+  },
+  {
+    "from": "K21",
+    "to": "K29",
+    "weight": 0.1028,
+    "type": "network_background"
+  },
+  {
+    "from": "M71",
+    "to": "M70",
+    "weight": 0.1025,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "B49",
+    "weight": 0.1024,
+    "type": "network_background"
+  },
+  {
+    "from": "B96",
+    "to": "K29",
+    "weight": 0.1019,
+    "type": "network_background"
+  },
+  {
+    "from": "K43",
+    "to": "K42",
+    "weight": 0.1014,
+    "type": "network_background"
+  },
+  {
+    "from": "N81",
+    "to": "N39",
+    "weight": 0.1004,
+    "type": "network_background"
+  },
+  {
+    "from": "C43",
+    "to": "L98",
+    "weight": 0.0999,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "K59",
+    "weight": 0.0999,
+    "type": "network_background"
+  },
+  {
+    "from": "K82",
+    "to": "K86",
+    "weight": 0.0998,
+    "type": "network_background"
+  },
+  {
+    "from": "F00",
+    "to": "F05",
+    "weight": 0.0995,
+    "type": "network_background"
+  },
+  {
+    "from": "C64",
+    "to": "C77",
+    "weight": 0.0995,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "N48",
+    "weight": 0.0993,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "J45",
+    "weight": 0.0992,
+    "type": "network_background"
+  },
+  {
+    "from": "H03",
+    "to": "H10",
+    "weight": 0.0987,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "A50",
+    "weight": 0.0983,
+    "type": "network_background"
+  },
+  {
+    "from": "K82",
+    "to": "K81",
+    "weight": 0.0983,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "B09",
+    "weight": 0.098,
+    "type": "network_background"
+  },
+  {
+    "from": "E05",
+    "to": "E02",
+    "weight": 0.0977,
+    "type": "network_background"
+  },
+  {
+    "from": "I83",
+    "to": "I87",
+    "weight": 0.0977,
+    "type": "network_background"
+  },
+  {
+    "from": "M51",
+    "to": "G99",
+    "weight": 0.0974,
+    "type": "network_background"
+  },
+  {
+    "from": "N39",
+    "to": "N30",
+    "weight": 0.0973,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "F05",
+    "weight": 0.0969,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K20",
+    "weight": 0.0965,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "M79",
+    "weight": 0.096,
+    "type": "network_background"
+  },
+  {
+    "from": "M70",
+    "to": "M96",
+    "weight": 0.0959,
+    "type": "network_background"
+  },
+  {
+    "from": "C18",
+    "to": "K63",
+    "weight": 0.0958,
+    "type": "network_background"
+  },
+  {
+    "from": "A00",
+    "to": "A08",
+    "weight": 0.0954,
+    "type": "network_background"
+  },
+  {
+    "from": "M53",
+    "to": "M54",
+    "weight": 0.0953,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "B96",
+    "weight": 0.0948,
+    "type": "network_background"
+  },
+  {
+    "from": "I05",
+    "to": "I33",
+    "weight": 0.0944,
+    "type": "network_background"
+  },
+  {
+    "from": "E86",
+    "to": "E87",
+    "weight": 0.0944,
+    "type": "network_background"
+  },
+  {
+    "from": "I42",
+    "to": "I51",
+    "weight": 0.0942,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "B49",
+    "weight": 0.0941,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "J00",
+    "weight": 0.094,
+    "type": "network_background"
+  },
+  {
+    "from": "F10",
+    "to": "F17",
+    "weight": 0.0931,
+    "type": "network_background"
+  },
+  {
+    "from": "K62",
+    "to": "K60",
+    "weight": 0.0926,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "N20",
+    "weight": 0.0925,
+    "type": "network_background"
+  },
+  {
+    "from": "K22",
+    "to": "K31",
+    "weight": 0.0925,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I21",
+    "weight": 0.0924,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "L51",
+    "weight": 0.0917,
+    "type": "network_background"
+  },
+  {
+    "from": "I87",
+    "to": "L97",
+    "weight": 0.0909,
+    "type": "network_background"
+  },
+  {
+    "from": "F44",
+    "to": "H90",
+    "weight": 0.0908,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "B34",
+    "weight": 0.0906,
+    "type": "network_background"
+  },
+  {
+    "from": "L72",
+    "to": "N50",
+    "weight": 0.0905,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "A49",
+    "weight": 0.0899,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "B83",
+    "weight": 0.0899,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "F05",
+    "weight": 0.0896,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "E66",
+    "weight": 0.0894,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "J09",
+    "weight": 0.0893,
+    "type": "network_background"
+  },
+  {
+    "from": "I73",
+    "to": "L97",
+    "weight": 0.0886,
+    "type": "network_background"
+  },
+  {
+    "from": "M72",
+    "to": "M96",
+    "weight": 0.0884,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I27",
+    "weight": 0.0881,
+    "type": "network_background"
+  },
+  {
+    "from": "N31",
+    "to": "G35",
+    "weight": 0.0879,
+    "type": "network_background"
+  },
+  {
+    "from": "K04",
+    "to": "K08",
+    "weight": 0.0879,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "N89",
+    "weight": 0.0878,
+    "type": "network_background"
+  },
+  {
+    "from": "K31",
+    "to": "K44",
+    "weight": 0.0875,
+    "type": "network_background"
+  },
+  {
+    "from": "H15",
+    "to": "H05",
+    "weight": 0.0872,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "N83",
+    "weight": 0.087,
+    "type": "network_background"
+  },
+  {
+    "from": "L59",
+    "to": "L98",
+    "weight": 0.0869,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H05",
+    "weight": 0.0869,
+    "type": "network_background"
+  },
+  {
+    "from": "N30",
+    "to": "N41",
+    "weight": 0.0869,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "L10",
+    "weight": 0.0868,
+    "type": "network_background"
+  },
+  {
+    "from": "G99",
+    "to": "G60",
+    "weight": 0.0865,
+    "type": "network_background"
+  },
+  {
+    "from": "H75",
+    "to": "H90",
+    "weight": 0.0863,
+    "type": "network_background"
+  },
+  {
+    "from": "H04",
+    "to": "K61",
+    "weight": 0.0861,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H00",
+    "weight": 0.0859,
+    "type": "network_background"
+  },
+  {
+    "from": "N08",
+    "to": "N33",
+    "weight": 0.0857,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "C77",
+    "weight": 0.0855,
+    "type": "network_background"
+  },
+  {
+    "from": "M00",
+    "to": "M70",
+    "weight": 0.0853,
+    "type": "network_background"
+  },
+  {
+    "from": "C91",
+    "to": "D69",
+    "weight": 0.0852,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "N19",
+    "weight": 0.0851,
+    "type": "network_background"
+  },
+  {
+    "from": "K57",
+    "to": "K62",
+    "weight": 0.0851,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "J93",
+    "weight": 0.085,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "J60",
+    "weight": 0.085,
+    "type": "network_background"
+  },
+  {
+    "from": "N32",
+    "to": "N39",
+    "weight": 0.0843,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "J96",
+    "weight": 0.0838,
+    "type": "network_background"
+  },
+  {
+    "from": "K21",
+    "to": "K30",
+    "weight": 0.0838,
+    "type": "network_background"
+  },
+  {
+    "from": "C43",
+    "to": "D00",
+    "weight": 0.0838,
+    "type": "network_background"
+  },
+  {
+    "from": "N41",
+    "to": "N42",
+    "weight": 0.0833,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "B34",
+    "weight": 0.083,
+    "type": "network_background"
+  },
+  {
+    "from": "E78",
+    "to": "E10",
+    "weight": 0.0827,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "F44",
+    "weight": 0.0826,
+    "type": "network_background"
+  },
+  {
+    "from": "J09",
+    "to": "B09",
+    "weight": 0.0825,
+    "type": "network_background"
+  },
+  {
+    "from": "E21",
+    "to": "E89",
+    "weight": 0.0825,
+    "type": "network_background"
+  },
+  {
+    "from": "N60",
+    "to": "N63",
+    "weight": 0.0824,
+    "type": "network_background"
+  },
+  {
+    "from": "K43",
+    "to": "K56",
+    "weight": 0.0823,
+    "type": "network_background"
+  },
+  {
+    "from": "K43",
+    "to": "K91",
+    "weight": 0.0823,
+    "type": "network_background"
+  },
+  {
+    "from": "H25",
+    "to": "H15",
+    "weight": 0.0823,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "A50",
+    "weight": 0.0823,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "L10",
+    "weight": 0.0822,
+    "type": "network_background"
+  },
+  {
+    "from": "N13",
+    "to": "N17",
+    "weight": 0.0821,
+    "type": "network_background"
+  },
+  {
+    "from": "M71",
+    "to": "M60",
+    "weight": 0.0815,
+    "type": "network_background"
+  },
+  {
+    "from": "H53",
+    "to": "H59",
+    "weight": 0.0812,
+    "type": "network_background"
+  },
+  {
+    "from": "L40",
+    "to": "L63",
+    "weight": 0.0812,
+    "type": "network_background"
+  },
+  {
+    "from": "L82",
+    "to": "L98",
+    "weight": 0.081,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "D70",
+    "weight": 0.0805,
+    "type": "network_background"
+  },
+  {
+    "from": "K52",
+    "to": "K59",
+    "weight": 0.0803,
+    "type": "network_background"
+  },
+  {
+    "from": "H80",
+    "to": "H90",
+    "weight": 0.0802,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "J43",
+    "weight": 0.0798,
+    "type": "network_background"
+  },
+  {
+    "from": "C90",
+    "to": "D70",
+    "weight": 0.0798,
+    "type": "network_background"
+  },
+  {
+    "from": "F06",
+    "to": "F53",
+    "weight": 0.0797,
+    "type": "network_background"
+  },
+  {
+    "from": "M40",
+    "to": "M48",
+    "weight": 0.0797,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H04",
+    "weight": 0.0796,
+    "type": "network_background"
+  },
+  {
+    "from": "N60",
+    "to": "N94",
+    "weight": 0.0791,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "F53",
+    "weight": 0.0789,
+    "type": "network_background"
+  },
+  {
+    "from": "N33",
+    "to": "N41",
+    "weight": 0.0786,
+    "type": "network_background"
+  },
+  {
+    "from": "H03",
+    "to": "L01",
+    "weight": 0.0785,
+    "type": "network_background"
+  },
+  {
+    "from": "F02",
+    "to": "G20",
+    "weight": 0.0785,
+    "type": "network_background"
+  },
+  {
+    "from": "I21",
+    "to": "I10",
+    "weight": 0.0784,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "L72",
+    "weight": 0.0783,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "K61",
+    "weight": 0.0782,
+    "type": "network_background"
+  },
+  {
+    "from": "K56",
+    "to": "K91",
+    "weight": 0.0782,
+    "type": "network_background"
+  },
+  {
+    "from": "M05",
+    "to": "M30",
+    "weight": 0.0781,
+    "type": "network_background"
+  },
+  {
+    "from": "C18",
+    "to": "K66",
+    "weight": 0.0779,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "A50",
+    "weight": 0.0779,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H02",
+    "weight": 0.0778,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "A15",
+    "weight": 0.0777,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "D69",
+    "weight": 0.0774,
+    "type": "network_background"
+  },
+  {
+    "from": "K90",
+    "to": "B83",
+    "weight": 0.0773,
+    "type": "network_background"
+  },
+  {
+    "from": "N45",
+    "to": "A50",
+    "weight": 0.0771,
+    "type": "network_background"
+  },
+  {
+    "from": "B49",
+    "to": "L20",
+    "weight": 0.0771,
+    "type": "network_background"
+  },
+  {
+    "from": "K57",
+    "to": "D10",
+    "weight": 0.077,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "N13",
+    "weight": 0.0769,
+    "type": "network_background"
+  },
+  {
+    "from": "H00",
+    "to": "H04",
+    "weight": 0.0769,
+    "type": "network_background"
+  },
+  {
+    "from": "I83",
+    "to": "L97",
+    "weight": 0.0768,
+    "type": "network_background"
+  },
+  {
+    "from": "M15",
+    "to": "I10",
+    "weight": 0.0768,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K26",
+    "weight": 0.0766,
+    "type": "network_background"
+  },
+  {
+    "from": "N89",
+    "to": "N95",
+    "weight": 0.076,
+    "type": "network_background"
+  },
+  {
+    "from": "K56",
+    "to": "K55",
+    "weight": 0.0759,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "J44",
+    "weight": 0.0759,
+    "type": "network_background"
+  },
+  {
+    "from": "K64",
+    "to": "K92",
+    "weight": 0.0758,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "J82",
+    "weight": 0.0758,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "B99",
+    "weight": 0.0757,
+    "type": "network_background"
+  },
+  {
+    "from": "A09",
+    "to": "K59",
+    "weight": 0.0757,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "J30",
+    "weight": 0.0755,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "N63",
+    "weight": 0.0753,
+    "type": "network_background"
+  },
+  {
+    "from": "K35",
+    "to": "K65",
+    "weight": 0.0753,
+    "type": "network_background"
+  },
+  {
+    "from": "M00",
+    "to": "M96",
+    "weight": 0.0752,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "B99",
+    "weight": 0.0751,
+    "type": "network_background"
+  },
+  {
+    "from": "K12",
+    "to": "K13",
+    "weight": 0.0751,
+    "type": "network_background"
+  },
+  {
+    "from": "I21",
+    "to": "I46",
+    "weight": 0.0751,
+    "type": "network_background"
+  },
+  {
+    "from": "N13",
+    "to": "C67",
+    "weight": 0.0749,
+    "type": "network_background"
+  },
+  {
+    "from": "A00",
+    "to": "B83",
+    "weight": 0.0749,
+    "type": "network_background"
+  },
+  {
+    "from": "C76",
+    "to": "C43",
+    "weight": 0.0747,
+    "type": "network_background"
+  },
+  {
+    "from": "I21",
+    "to": "I51",
+    "weight": 0.0743,
+    "type": "network_background"
+  },
+  {
+    "from": "M70",
+    "to": "M77",
+    "weight": 0.0743,
+    "type": "network_background"
+  },
+  {
+    "from": "N18",
+    "to": "N19",
+    "weight": 0.0741,
+    "type": "network_background"
+  },
+  {
+    "from": "H61",
+    "to": "H90",
+    "weight": 0.074,
+    "type": "network_background"
+  },
+  {
+    "from": "L01",
+    "to": "L98",
+    "weight": 0.0738,
+    "type": "network_background"
+  },
+  {
+    "from": "I48",
+    "to": "I34",
+    "weight": 0.0736,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I05",
+    "weight": 0.0734,
+    "type": "network_background"
+  },
+  {
+    "from": "I49",
+    "to": "I51",
+    "weight": 0.0734,
+    "type": "network_background"
+  },
+  {
+    "from": "B89",
+    "to": "A50",
+    "weight": 0.0733,
+    "type": "network_background"
+  },
+  {
+    "from": "I48",
+    "to": "I51",
+    "weight": 0.0732,
+    "type": "network_background"
+  },
+  {
+    "from": "K13",
+    "to": "K14",
+    "weight": 0.0731,
+    "type": "network_background"
+  },
+  {
+    "from": "K66",
+    "to": "K56",
+    "weight": 0.0731,
+    "type": "network_background"
+  },
+  {
+    "from": "D50",
+    "to": "K44",
+    "weight": 0.0729,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "J90",
+    "weight": 0.0727,
+    "type": "network_background"
+  },
+  {
+    "from": "H25",
+    "to": "H43",
+    "weight": 0.0725,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "J30",
+    "weight": 0.0724,
+    "type": "network_background"
+  },
+  {
+    "from": "L59",
+    "to": "L82",
+    "weight": 0.0723,
+    "type": "network_background"
+  },
+  {
+    "from": "M77",
+    "to": "M75",
+    "weight": 0.0721,
+    "type": "network_background"
+  },
+  {
+    "from": "B99",
+    "to": "L71",
+    "weight": 0.072,
+    "type": "network_background"
+  },
+  {
+    "from": "B96",
+    "to": "L97",
+    "weight": 0.0717,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "A50",
+    "weight": 0.0716,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "A41",
+    "weight": 0.0716,
+    "type": "network_background"
+  },
+  {
+    "from": "C67",
+    "to": "N30",
+    "weight": 0.0716,
+    "type": "network_background"
+  },
+  {
+    "from": "H25",
+    "to": "M10",
+    "weight": 0.0716,
+    "type": "network_background"
+  },
+  {
+    "from": "N80",
+    "to": "N70",
+    "weight": 0.0712,
+    "type": "network_background"
+  },
+  {
+    "from": "G50",
+    "to": "M54",
+    "weight": 0.0711,
+    "type": "network_background"
+  },
+  {
+    "from": "M54",
+    "to": "M79",
+    "weight": 0.0709,
+    "type": "network_background"
+  },
+  {
+    "from": "M15",
+    "to": "M47",
+    "weight": 0.0707,
+    "type": "network_background"
+  },
+  {
+    "from": "L10",
+    "to": "L51",
+    "weight": 0.0705,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "C64",
+    "weight": 0.0703,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "F17",
+    "weight": 0.0702,
+    "type": "network_background"
+  },
+  {
+    "from": "M05",
+    "to": "M80",
+    "weight": 0.0694,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "F05",
+    "weight": 0.0693,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "A09",
+    "weight": 0.0692,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "G97",
+    "weight": 0.0692,
+    "type": "network_background"
+  },
+  {
+    "from": "F16",
+    "to": "F06",
+    "weight": 0.0691,
+    "type": "network_background"
+  },
+  {
+    "from": "N45",
+    "to": "N43",
+    "weight": 0.0691,
+    "type": "network_background"
+  },
+  {
+    "from": "M30",
+    "to": "N11",
+    "weight": 0.0691,
+    "type": "network_background"
+  },
+  {
+    "from": "J90",
+    "to": "J93",
+    "weight": 0.069,
+    "type": "network_background"
+  },
+  {
+    "from": "G60",
+    "to": "E16",
+    "weight": 0.0688,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "J40",
+    "weight": 0.0688,
+    "type": "network_background"
+  },
+  {
+    "from": "M72",
+    "to": "M77",
+    "weight": 0.0687,
+    "type": "network_background"
+  },
+  {
+    "from": "K75",
+    "to": "K76",
+    "weight": 0.0686,
+    "type": "network_background"
+  },
+  {
+    "from": "L10",
+    "to": "N94",
+    "weight": 0.0686,
+    "type": "network_background"
+  },
+  {
+    "from": "J20",
+    "to": "J41",
+    "weight": 0.0685,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "I34",
+    "weight": 0.0685,
+    "type": "network_background"
+  },
+  {
+    "from": "N13",
+    "to": "N11",
+    "weight": 0.0684,
+    "type": "network_background"
+  },
+  {
+    "from": "M51",
+    "to": "M48",
+    "weight": 0.0684,
+    "type": "network_background"
+  },
+  {
+    "from": "G80",
+    "to": "G40",
+    "weight": 0.0683,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "H10",
+    "weight": 0.0682,
+    "type": "network_background"
+  },
+  {
+    "from": "E70",
+    "to": "M15",
+    "weight": 0.0678,
+    "type": "network_background"
+  },
+  {
+    "from": "F40",
+    "to": "F43",
+    "weight": 0.0677,
+    "type": "network_background"
+  },
+  {
+    "from": "F05",
+    "to": "I65",
+    "weight": 0.0676,
+    "type": "network_background"
+  },
+  {
+    "from": "N33",
+    "to": "N30",
+    "weight": 0.0676,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "J47",
+    "weight": 0.0676,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "N30",
+    "weight": 0.0674,
+    "type": "network_background"
+  },
+  {
+    "from": "N88",
+    "to": "N95",
+    "weight": 0.0673,
+    "type": "network_background"
+  },
+  {
+    "from": "F01",
+    "to": "I65",
+    "weight": 0.067,
+    "type": "network_background"
+  },
+  {
+    "from": "C15",
+    "to": "K22",
+    "weight": 0.0669,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "M53",
+    "weight": 0.0668,
+    "type": "network_background"
+  },
+  {
+    "from": "I10",
+    "to": "N18",
+    "weight": 0.0667,
+    "type": "network_background"
+  },
+  {
+    "from": "G60",
+    "to": "L97",
+    "weight": 0.0665,
+    "type": "network_background"
+  },
+  {
+    "from": "F40",
+    "to": "F53",
+    "weight": 0.0664,
+    "type": "network_background"
+  },
+  {
+    "from": "D10",
+    "to": "N83",
+    "weight": 0.0663,
+    "type": "network_background"
+  },
+  {
+    "from": "E66",
+    "to": "I10",
+    "weight": 0.0662,
+    "type": "network_background"
+  },
+  {
+    "from": "I49",
+    "to": "I46",
+    "weight": 0.0661,
+    "type": "network_background"
+  },
+  {
+    "from": "C18",
+    "to": "K56",
+    "weight": 0.0661,
+    "type": "network_background"
+  },
+  {
+    "from": "I05",
+    "to": "I48",
+    "weight": 0.0658,
+    "type": "network_background"
+  },
+  {
+    "from": "D70",
+    "to": "I73",
+    "weight": 0.0658,
+    "type": "network_background"
+  },
+  {
+    "from": "J44",
+    "to": "J40",
+    "weight": 0.0658,
+    "type": "network_background"
+  },
+  {
+    "from": "J43",
+    "to": "J82",
+    "weight": 0.0656,
+    "type": "network_background"
+  },
+  {
+    "from": "H30",
+    "to": "E16",
+    "weight": 0.0655,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "H05",
+    "weight": 0.0653,
+    "type": "network_background"
+  },
+  {
+    "from": "I46",
+    "to": "G93",
+    "weight": 0.0652,
+    "type": "network_background"
+  },
+  {
+    "from": "J45",
+    "to": "J82",
+    "weight": 0.0652,
+    "type": "network_background"
+  },
+  {
+    "from": "D50",
+    "to": "K29",
+    "weight": 0.0651,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "H04",
+    "weight": 0.065,
+    "type": "network_background"
+  },
+  {
+    "from": "D50",
+    "to": "K31",
+    "weight": 0.065,
+    "type": "network_background"
+  },
+  {
+    "from": "I33",
+    "to": "I30",
+    "weight": 0.0649,
+    "type": "network_background"
+  },
+  {
+    "from": "L20",
+    "to": "M79",
+    "weight": 0.0647,
+    "type": "network_background"
+  },
+  {
+    "from": "E16",
+    "to": "L97",
+    "weight": 0.0647,
+    "type": "network_background"
+  },
+  {
+    "from": "A69",
+    "to": "A15",
+    "weight": 0.0646,
+    "type": "network_background"
+  },
+  {
+    "from": "K62",
+    "to": "K50",
+    "weight": 0.0646,
+    "type": "network_background"
+  },
+  {
+    "from": "J44",
+    "to": "J96",
+    "weight": 0.0644,
+    "type": "network_background"
+  },
+  {
+    "from": "E40",
+    "to": "D51",
+    "weight": 0.0642,
+    "type": "network_background"
+  },
+  {
+    "from": "N51",
+    "to": "G00",
+    "weight": 0.064,
+    "type": "network_background"
+  },
+  {
+    "from": "B83",
+    "to": "G40",
+    "weight": 0.0639,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "L20",
+    "weight": 0.0639,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "N18",
+    "weight": 0.0638,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "N08",
+    "weight": 0.0637,
+    "type": "network_background"
+  },
+  {
+    "from": "K61",
+    "to": "K12",
+    "weight": 0.0635,
+    "type": "network_background"
+  },
+  {
+    "from": "L10",
+    "to": "L59",
+    "weight": 0.0635,
+    "type": "network_background"
+  },
+  {
+    "from": "J60",
+    "to": "J44",
+    "weight": 0.0635,
+    "type": "network_background"
+  },
+  {
+    "from": "C61",
+    "to": "N42",
+    "weight": 0.0635,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "H05",
+    "weight": 0.0635,
+    "type": "network_background"
+  },
+  {
+    "from": "L01",
+    "to": "M79",
+    "weight": 0.0634,
+    "type": "network_background"
+  },
+  {
+    "from": "D10",
+    "to": "N80",
+    "weight": 0.0633,
+    "type": "network_background"
+  },
+  {
+    "from": "J43",
+    "to": "F17",
+    "weight": 0.0633,
+    "type": "network_background"
+  },
+  {
+    "from": "M72",
+    "to": "M79",
+    "weight": 0.0632,
+    "type": "network_background"
+  },
+  {
+    "from": "J12",
+    "to": "N17",
+    "weight": 0.0632,
+    "type": "network_background"
+  },
+  {
+    "from": "M48",
+    "to": "M47",
+    "weight": 0.0632,
+    "type": "network_background"
+  },
+  {
+    "from": "M05",
+    "to": "M10",
+    "weight": 0.063,
+    "type": "network_background"
+  },
+  {
+    "from": "N29",
+    "to": "K76",
+    "weight": 0.0627,
+    "type": "network_background"
+  },
+  {
+    "from": "L98",
+    "to": "M79",
+    "weight": 0.0627,
+    "type": "network_background"
+  },
+  {
+    "from": "F32",
+    "to": "F10",
+    "weight": 0.0626,
+    "type": "network_background"
+  },
+  {
+    "from": "J39",
+    "to": "H75",
+    "weight": 0.0626,
+    "type": "network_background"
+  },
+  {
+    "from": "K50",
+    "to": "K63",
+    "weight": 0.0625,
+    "type": "network_background"
+  },
+  {
+    "from": "A08",
+    "to": "K91",
+    "weight": 0.0623,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "H03",
+    "weight": 0.0623,
+    "type": "network_background"
+  },
+  {
+    "from": "K26",
+    "to": "K92",
+    "weight": 0.0622,
+    "type": "network_background"
+  },
+  {
+    "from": "H00",
+    "to": "N70",
+    "weight": 0.0618,
+    "type": "network_background"
+  },
+  {
+    "from": "B89",
+    "to": "L20",
+    "weight": 0.0618,
+    "type": "network_background"
+  },
+  {
+    "from": "F15",
+    "to": "F53",
+    "weight": 0.0616,
+    "type": "network_background"
+  },
+  {
+    "from": "L59",
+    "to": "D00",
+    "weight": 0.0616,
+    "type": "network_background"
+  },
+  {
+    "from": "N70",
+    "to": "N95",
+    "weight": 0.0615,
+    "type": "network_background"
+  },
+  {
+    "from": "J30",
+    "to": "J45",
+    "weight": 0.0615,
+    "type": "network_background"
+  },
+  {
+    "from": "B49",
+    "to": "M79",
+    "weight": 0.0615,
+    "type": "network_background"
+  },
+  {
+    "from": "N45",
+    "to": "N40",
+    "weight": 0.061,
+    "type": "network_background"
+  },
+  {
+    "from": "F39",
+    "to": "F44",
+    "weight": 0.0609,
+    "type": "network_background"
+  },
+  {
+    "from": "F45",
+    "to": "M54",
+    "weight": 0.0609,
+    "type": "network_background"
+  },
+  {
+    "from": "K85",
+    "to": "K82",
+    "weight": 0.0607,
+    "type": "network_background"
+  },
+  {
+    "from": "I60",
+    "to": "I48",
+    "weight": 0.0606,
+    "type": "network_background"
+  },
+  {
+    "from": "N30",
+    "to": "N35",
+    "weight": 0.0606,
+    "type": "network_background"
+  },
+  {
+    "from": "N92",
+    "to": "N80",
+    "weight": 0.0604,
+    "type": "network_background"
+  },
+  {
+    "from": "D10",
+    "to": "K62",
+    "weight": 0.0602,
+    "type": "network_background"
+  },
+  {
+    "from": "E87",
+    "to": "I95",
+    "weight": 0.0602,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "K61",
+    "weight": 0.0602,
+    "type": "network_background"
+  },
+  {
+    "from": "C77",
+    "to": "C53",
+    "weight": 0.06,
+    "type": "network_background"
+  },
+  {
+    "from": "D50",
+    "to": "E40",
+    "weight": 0.0597,
+    "type": "network_background"
+  },
+  {
+    "from": "G50",
+    "to": "M15",
+    "weight": 0.0596,
+    "type": "network_background"
+  },
+  {
+    "from": "J60",
+    "to": "J41",
+    "weight": 0.0595,
+    "type": "network_background"
+  },
+  {
+    "from": "M53",
+    "to": "M40",
+    "weight": 0.0593,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "H03",
+    "weight": 0.0589,
+    "type": "network_background"
+  },
+  {
+    "from": "C76",
+    "to": "C56",
+    "weight": 0.0589,
+    "type": "network_background"
+  },
+  {
+    "from": "N92",
+    "to": "N70",
+    "weight": 0.0587,
+    "type": "network_background"
+  },
+  {
+    "from": "C43",
+    "to": "L90",
+    "weight": 0.0587,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "L89",
+    "weight": 0.0587,
+    "type": "network_background"
+  },
+  {
+    "from": "H01",
+    "to": "H15",
+    "weight": 0.0586,
+    "type": "network_background"
+  },
+  {
+    "from": "C56",
+    "to": "K56",
+    "weight": 0.0584,
+    "type": "network_background"
+  },
+  {
+    "from": "L20",
+    "to": "L98",
+    "weight": 0.0581,
+    "type": "network_background"
+  },
+  {
+    "from": "I21",
+    "to": "I49",
+    "weight": 0.0581,
+    "type": "network_background"
+  },
+  {
+    "from": "E02",
+    "to": "H49",
+    "weight": 0.058,
+    "type": "network_background"
+  },
+  {
+    "from": "F12",
+    "to": "F18",
+    "weight": 0.0579,
+    "type": "network_background"
+  },
+  {
+    "from": "C90",
+    "to": "E83",
+    "weight": 0.0579,
+    "type": "network_background"
+  },
+  {
+    "from": "K64",
+    "to": "K63",
+    "weight": 0.0579,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "B49",
+    "weight": 0.0579,
+    "type": "network_background"
+  },
+  {
+    "from": "I34",
+    "to": "I49",
+    "weight": 0.0577,
+    "type": "network_background"
+  },
+  {
+    "from": "J95",
+    "to": "G00",
+    "weight": 0.0577,
+    "type": "network_background"
+  },
+  {
+    "from": "K50",
+    "to": "K91",
+    "weight": 0.0574,
+    "type": "network_background"
+  },
+  {
+    "from": "E86",
+    "to": "E83",
+    "weight": 0.0574,
+    "type": "network_background"
+  },
+  {
+    "from": "H30",
+    "to": "H49",
+    "weight": 0.0572,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "H10",
+    "weight": 0.0572,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "K82",
+    "weight": 0.0571,
+    "type": "network_background"
+  },
+  {
+    "from": "N31",
+    "to": "N39",
+    "weight": 0.057,
+    "type": "network_background"
+  },
+  {
+    "from": "A06",
+    "to": "A50",
+    "weight": 0.057,
+    "type": "network_background"
+  },
+  {
+    "from": "M50",
+    "to": "M47",
+    "weight": 0.0569,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "H90",
+    "weight": 0.0569,
+    "type": "network_background"
+  },
+  {
+    "from": "H04",
+    "to": "H10",
+    "weight": 0.0569,
+    "type": "network_background"
+  },
+  {
+    "from": "N81",
+    "to": "N85",
+    "weight": 0.0568,
+    "type": "network_background"
+  },
+  {
+    "from": "J95",
+    "to": "J47",
+    "weight": 0.0568,
+    "type": "network_background"
+  },
+  {
+    "from": "E86",
+    "to": "I95",
+    "weight": 0.0567,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "L20",
+    "weight": 0.0565,
+    "type": "network_background"
+  },
+  {
+    "from": "I50",
+    "to": "J45",
+    "weight": 0.0565,
+    "type": "network_background"
+  },
+  {
+    "from": "I30",
+    "to": "I71",
+    "weight": 0.0564,
+    "type": "network_background"
+  },
+  {
+    "from": "J20",
+    "to": "M79",
+    "weight": 0.0564,
+    "type": "network_background"
+  },
+  {
+    "from": "K75",
+    "to": "I26",
+    "weight": 0.0563,
+    "type": "network_background"
+  },
+  {
+    "from": "K12",
+    "to": "I89",
+    "weight": 0.0563,
+    "type": "network_background"
+  },
+  {
+    "from": "I34",
+    "to": "I21",
+    "weight": 0.0563,
+    "type": "network_background"
+  },
+  {
+    "from": "I34",
+    "to": "I71",
+    "weight": 0.0561,
+    "type": "network_background"
+  },
+  {
+    "from": "I48",
+    "to": "I10",
+    "weight": 0.0558,
+    "type": "network_background"
+  },
+  {
+    "from": "J33",
+    "to": "J45",
+    "weight": 0.0558,
+    "type": "network_background"
+  },
+  {
+    "from": "M71",
+    "to": "M72",
+    "weight": 0.0558,
+    "type": "network_background"
+  },
+  {
+    "from": "M40",
+    "to": "M47",
+    "weight": 0.0557,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "F05",
+    "weight": 0.0556,
+    "type": "network_background"
+  },
+  {
+    "from": "K56",
+    "to": "K65",
+    "weight": 0.0556,
+    "type": "network_background"
+  },
+  {
+    "from": "B64",
+    "to": "A49",
+    "weight": 0.0555,
+    "type": "network_background"
+  },
+  {
+    "from": "A41",
+    "to": "C91",
+    "weight": 0.0555,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "J95",
+    "weight": 0.0555,
+    "type": "network_background"
+  },
+  {
+    "from": "B96",
+    "to": "L01",
+    "weight": 0.0552,
+    "type": "network_background"
+  },
+  {
+    "from": "N84",
+    "to": "N88",
+    "weight": 0.0552,
+    "type": "network_background"
+  },
+  {
+    "from": "M77",
+    "to": "M96",
+    "weight": 0.0551,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "G60",
+    "weight": 0.0549,
+    "type": "network_background"
+  },
+  {
+    "from": "M80",
+    "to": "M15",
+    "weight": 0.0547,
+    "type": "network_background"
+  },
+  {
+    "from": "K29",
+    "to": "K30",
+    "weight": 0.0546,
+    "type": "network_background"
+  },
+  {
+    "from": "H15",
+    "to": "H04",
+    "weight": 0.0545,
+    "type": "network_background"
+  },
+  {
+    "from": "C18",
+    "to": "C20",
+    "weight": 0.0545,
+    "type": "network_background"
+  },
+  {
+    "from": "C34",
+    "to": "J12",
+    "weight": 0.0545,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "N64",
+    "weight": 0.0544,
+    "type": "network_background"
+  },
+  {
+    "from": "G93",
+    "to": "F43",
+    "weight": 0.0543,
+    "type": "network_background"
+  },
+  {
+    "from": "J90",
+    "to": "E87",
+    "weight": 0.0541,
+    "type": "network_background"
+  },
+  {
+    "from": "G45",
+    "to": "I87",
+    "weight": 0.054,
+    "type": "network_background"
+  },
+  {
+    "from": "K25",
+    "to": "K92",
+    "weight": 0.054,
+    "type": "network_background"
+  },
+  {
+    "from": "C50",
+    "to": "I89",
+    "weight": 0.0539,
+    "type": "network_background"
+  },
+  {
+    "from": "K65",
+    "to": "K91",
+    "weight": 0.0538,
+    "type": "network_background"
+  },
+  {
+    "from": "N90",
+    "to": "N95",
+    "weight": 0.0536,
+    "type": "network_background"
+  },
+  {
+    "from": "I83",
+    "to": "I26",
+    "weight": 0.0535,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "A08",
+    "weight": 0.0534,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "I87",
+    "weight": 0.0534,
+    "type": "network_background"
+  },
+  {
+    "from": "K60",
+    "to": "K64",
+    "weight": 0.053,
+    "type": "network_background"
+  },
+  {
+    "from": "M65",
+    "to": "M75",
+    "weight": 0.053,
+    "type": "network_background"
+  },
+  {
+    "from": "N50",
+    "to": "J39",
+    "weight": 0.0529,
+    "type": "network_background"
+  },
+  {
+    "from": "A49",
+    "to": "N41",
+    "weight": 0.0529,
+    "type": "network_background"
+  },
+  {
+    "from": "M75",
+    "to": "M79",
+    "weight": 0.0528,
+    "type": "network_background"
+  },
+  {
+    "from": "L98",
+    "to": "L51",
+    "weight": 0.0527,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "H00",
+    "weight": 0.0526,
+    "type": "network_background"
+  },
+  {
+    "from": "N32",
+    "to": "N42",
+    "weight": 0.0524,
+    "type": "network_background"
+  },
+  {
+    "from": "J39",
+    "to": "N83",
+    "weight": 0.0523,
+    "type": "network_background"
+  },
+  {
+    "from": "C67",
+    "to": "D00",
+    "weight": 0.0523,
+    "type": "network_background"
+  },
+  {
+    "from": "J95",
+    "to": "J93",
+    "weight": 0.0522,
+    "type": "network_background"
+  },
+  {
+    "from": "M05",
+    "to": "M20",
+    "weight": 0.0522,
+    "type": "network_background"
+  },
+  {
+    "from": "B96",
+    "to": "N11",
+    "weight": 0.0522,
+    "type": "network_background"
+  },
+  {
+    "from": "G50",
+    "to": "M65",
+    "weight": 0.0521,
+    "type": "network_background"
+  },
+  {
+    "from": "H02",
+    "to": "H15",
+    "weight": 0.0518,
+    "type": "network_background"
+  },
+  {
+    "from": "K80",
+    "to": "K76",
+    "weight": 0.0518,
+    "type": "network_background"
+  },
+  {
+    "from": "N43",
+    "to": "N94",
+    "weight": 0.0517,
+    "type": "network_background"
+  },
+  {
+    "from": "B89",
+    "to": "A49",
+    "weight": 0.0517,
+    "type": "network_background"
+  },
+  {
+    "from": "J90",
+    "to": "C77",
+    "weight": 0.0517,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "B49",
+    "weight": 0.0515,
+    "type": "network_background"
+  },
+  {
+    "from": "J00",
+    "to": "L01",
+    "weight": 0.0515,
+    "type": "network_background"
+  },
+  {
+    "from": "H40",
+    "to": "H59",
+    "weight": 0.0515,
+    "type": "network_background"
+  },
+  {
+    "from": "I42",
+    "to": "I49",
+    "weight": 0.0514,
+    "type": "network_background"
+  },
+  {
+    "from": "C91",
+    "to": "C82",
+    "weight": 0.0514,
+    "type": "network_background"
+  },
+  {
+    "from": "N48",
+    "to": "N40",
+    "weight": 0.0514,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "B99",
+    "weight": 0.0513,
+    "type": "network_background"
+  },
+  {
+    "from": "G80",
+    "to": "G35",
+    "weight": 0.0513,
+    "type": "network_background"
+  },
+  {
+    "from": "D10",
+    "to": "N84",
+    "weight": 0.0513,
+    "type": "network_background"
+  },
+  {
+    "from": "B09",
+    "to": "H10",
+    "weight": 0.0512,
+    "type": "network_background"
+  },
+  {
+    "from": "N63",
+    "to": "N64",
+    "weight": 0.0512,
+    "type": "network_background"
+  },
+  {
+    "from": "H04",
+    "to": "N70",
+    "weight": 0.0512,
+    "type": "network_background"
+  },
+  {
+    "from": "J90",
+    "to": "I48",
+    "weight": 0.0512,
+    "type": "network_background"
+  },
+  {
+    "from": "I77",
+    "to": "I71",
+    "weight": 0.0511,
+    "type": "network_background"
+  },
+  {
+    "from": "A46",
+    "to": "B09",
+    "weight": 0.051,
+    "type": "network_background"
+  },
+  {
+    "from": "A08",
+    "to": "B83",
+    "weight": 0.051,
+    "type": "network_background"
+  },
+  {
+    "from": "N17",
+    "to": "F05",
+    "weight": 0.051,
+    "type": "network_background"
+  },
+  {
+    "from": "F20",
+    "to": "F32",
+    "weight": 0.051,
+    "type": "network_background"
+  },
+  {
+    "from": "M60",
+    "to": "F43",
+    "weight": 0.0509,
+    "type": "network_background"
+  },
+  {
+    "from": "H60",
+    "to": "J00",
+    "weight": 0.0508,
+    "type": "network_background"
+  },
+  {
+    "from": "C56",
+    "to": "J90",
+    "weight": 0.0506,
+    "type": "network_background"
+  },
+  {
+    "from": "H00",
+    "to": "H60",
+    "weight": 0.0505,
+    "type": "network_background"
+  },
+  {
+    "from": "M05",
+    "to": "M15",
+    "weight": 0.0504,
+    "type": "network_background"
+  },
+  {
+    "from": "K40",
+    "to": "C61",
+    "weight": 0.0503,
+    "type": "network_background"
+  },
+  {
+    "from": "E10",
+    "to": "G47",
+    "weight": 0.0501,
+    "type": "network_background"
+  },
+  {
+    "from": "N40",
+    "to": "C61",
+    "weight": 0.0501,
+    "type": "network_background"
+  },
+  {
+    "from": "A50",
+    "to": "I33",
+    "weight": 0.0501,
+    "type": "network_background"
+  },
+  {
+    "from": "A15",
+    "to": "F45",
+    "weight": 0.05,
+    "type": "network_background"
+  }
+]
