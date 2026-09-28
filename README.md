@@ -43,4 +43,4 @@ If you use this resource, please cite the accompanying manuscript. Full citation
 
 ## License
 
-[License information to be added]
+The code and visualization components in this repository are released under the MIT License. See the `LICENSE` file for details.
